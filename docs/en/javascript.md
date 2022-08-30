@@ -176,7 +176,7 @@ exec('ls /var/log', function (error, stdout, stderr) {
 });
 ```
 
-**Notice:** you must enable *Enable command "setObject"* option to call it.
+**Notice:** you must enable *Enable command "exec"* option to call it.
 
 ### on - Subscribe on changes or updates of some state
 ```js
